@@ -1,0 +1,42 @@
+name: pasa_dk
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+
+#---------- PACKAGES ----------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+ # Utility Packages
+  http: ^1.1.0
+  intl: ^0.19.0
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+
+ # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+
+ # Stage Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
